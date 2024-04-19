@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL del producto que quieres rastrear
-url = 'https://www.mercadolibre.com.ar/bicicleta-sunny-modelo-mtl-290-rodado-29-negro-naranja-color-negronaranja-tamano-del-cuadro-m/p/MLA17921665?product_trigger_id=MLA17921666&quantity=1'
+url = 'https://www.mercadolibre.com.ar/bicicleta-silverfox-r29-21v-mtb-aluminio-29-freno-disco-susp-color-naranja-tamano-del-cuadro-18/p/MLA23755521?pdp_filters=seller_id%3A70513647#reco_item_pos=1&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=pdp-seller_items-above&reco_id=79845acc-7aff-4267-af41-c6ee49a53d2e'
 
 headers = {
     "User-Agent": "Edge/91.0.4472.124 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"}
@@ -32,7 +32,6 @@ def check_price():
     print(price)
 
 check_price()
-
 
 
 
